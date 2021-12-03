@@ -317,9 +317,8 @@ html {
 
 /*                      Section 5                 */
 .section_5 {
-  background: #833ab4;
   background: -webkit-linear-gradient(to left, #0000ff, #00ffff, #833ab4);
-  background-image: url(/Stock/backgroundIMG1.jpg);
+  background-image: url(../Stock/backgroundIMG1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;

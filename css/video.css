@@ -47,7 +47,7 @@ footer {
 
 /* ------------ SETTINGS ------------ */
 body {
-  background-image: url("/Stock/backgroundIMG1.jpg");
+  background-image: url("../Stock/backgroundIMG1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ body {
   position: relative;
   border-radius: 6px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("/assets/Blog-post/blogBoat.jpg") center center/cover;
+  background: url("../assets/Blog-post/blogBoat.jpg") center center/cover;
   overflow: hidden;
 }
 
