@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --tomato-color: #ff433d;
+  --yellow-color: #ffb347;
+  --megenta-color: rgba(168, 2, 168, 0.897);
+  --lime-color: rgba(8, 248, 80, 0.932);
+  --light-orange: #ff6215;
+  --poppins: "Poppins", sans-serif;
+  --bungee: "Bungee", cursive;
+  --lobster: "Lobster", cursive;
+  --pacifico: "Pacifico", cursive;
+}
+/*              Homepage Design             */
+/*
+.navbar {
+  background-color: #002f49a2;
+}
+.navbar-brand {
+  padding-left: 30px;
+  font-family: var(--lobster);
+  font-size: 2rem;
+  color: var(--yellow-color);
+}
+
+.nav-item {
+  padding: 0em 1.3em;
+}
+.nav-link {
+  font-family: var(--poppins);
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+.nav-link:hover {
+  color: var(--light-orange);
+}
+*/
+.section_1 {
+  text-align: center;
+}
+.heading .h1 {
+  font-family: var(--bungee);
+  font-size: 7vmin;
+  padding-top: 22vmin;
+  color: #5d3fd3;
+}
+
+.heading .h1 + span {
+  color: var(--yellow-color);
+}
+
+.heading .p {
+  padding: 0em 13vmin 5vmin 0em;
+  color: #00ff00;
+  font-size: 3.5vmin;
+  font-family: var(--pacifico);
+}
+
+.heading > .btn1 {
+  padding: 3vmin 7vmin;
+  margin: 2vmin 7vmin;
+  border: 1px solid #002f49;
+  background: #002f49;
+  font-size: 2.5vmin;
+  font-family: var(--poppins);
+  color: white;
+  border-radius: 20%;
+  width: 23vmin;
+}
+
+.heading > .btn2 {
+  padding: 3vmin 7vmin;
+  margin: 2vmin 7vmin;
+  border: 1px solid #0000ff;
+  background: #0000ff;
+  font-size: 2.5vmin;
+  font-family: var(--poppins);
+  color: white;
+  border-radius: 20%;
+  width: 23vmin;
+}
+
+.heading > .btn1:hover {
+  border: 1px solid #00ff00;
+  cursor: pointer;
+}
+
+.heading > .btn2:hover {
+  border: 1px solid #00ffff;
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 35vmin;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -999;
+  border-bottom: 40px solid #0000ff;
+}
+/*/              Homepage Design             /*/
+
+/*                     Section 2                          */
+
+/*/                   Section 2                   /*/
+
+#section2 {
+  padding-top: 2rem;
+}
+
+#section2 h1 {
+  text-align: center;
+  font-family: var(--bungee);
+  font-size: 6vmin;
+}
+#section2 p {
+  margin-top: -3vmin;
+  font-family: var(--poppins);
+  padding: 0vmin 0 3.5vmin 0;
+  text-align: center;
+  font-size: 3vmin;
+  padding: 0 5rem 0 5rem;
+}
+.bars {
+  display: flex;
+  flex-direction: right;
+  justify-content: space-between;
+  padding: 5rem 5rem 0 9rem;
+}
+.text {
+  display: flex;
+  flex-direction: right;
+  justify-content: space-around;
+  padding: 2rem 0 3rem 0;
+  font-family: var(--bungee);
+}
+.progress-text1 {
+  color: cyan;
+  margin-left: 2.5rem;
+}
+.progress-text2 {
+  color: #00ff00;
+  margin-left: 0.25rem;
+}
+.progress-text3 {
+  color: var(--megenta-color);
+}
+.progress {
+  background: #d3d3d3;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 25px;
+  width: 25%;
+}
+
+.progress-value1 {
+  animation: load1 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #00ffff;
+  height: 18px;
+  width: 0;
+  text-align: right;
+  font: 0.75em sans-serif;
+}
+.progress-value2 {
+  animation: load2 3s normal forwards;
+  animation-delay: 1.5s;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #00ff00;
+  height: 18px;
+  width: 0;
+  text-align: right;
+  font: 0.75em sans-serif;
+}
+.progress-value3 {
+  animation: load3 3s normal forwards;
+  animation-delay: 3s;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: var(--megenta-color);
+  height: 18px;
+  width: 0;
+  text-align: right;
+  font: 0.75em sans-serif;
+}
+.label {
+  margin-top: -2rem;
+  font-size: medium;
+}
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 81%;
+  }
+}
+
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 77%;
+  }
+}
+
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+/*                      Section 3                         */
+
+.section_3 {
+  margin-top: 2rem;
+  background: #00ff00; /* fallback for old browsers */
+  background: linear-gradient(to left, #833ab4, #0000ff, #00ffff);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 90vh;
+  padding-bottom: 21vmin;
+}
+
+.section_3 .projects h1 {
+  font-family: var(--bungee);
+  font-size: 6vmin;
+  color: whitesmoke;
+  padding-top: 3.5vmin;
+}
+
+.section_3 .projects p {
+  margin-top: -3vmin;
+  font-family: var(--poppins);
+  padding: 0vmin 0 3.5vmin 0;
+  color: rgb(232, 242, 243);
+  font-size: 3vmin;
+}
+
+.section_3 .images {
+  height: 59.4vh;
+  background-color: black;
+  cursor: pointer;
+}
+
+.section_3 .images .flex-fill {
+  height: 60vh;
+  overflow: hidden;
+}
+.section_3 .images .flex-fill img {
+  width: 210%;
+  transition: 0.4s ease-in;
+}
+
+.section_3 .images .flex-fill img:hover {
+  width: 180%;
+}
+
+/*                        Section 4                         */
+.section_4 {
+  text-align: center;
+}
+.section_4 .services h1 {
+  font-family: var(--bungee);
+  font-size: 2em;
+  padding: 2em 0 0.6em 0;
+}
+.section_4 .services > p {
+  font-size: 1em;
+  font-family: var(--poppins);
+}
+.section_4 .services .cards {
+  padding: 3em;
+  padding-top: 0em;
+}
+.section_4 .services .cards i {
+  padding: 1em;
+}
+.section_4 .services .cards h3 {
+  font-family: var(--bungee);
+}
+.section_4 .services .cards > p {
+  padding: 0.4em;
+}
+
+.section_4 .services .cards:first-child i,
+.cards:first-child h3 {
+  color: #00ffff;
+}
+.section_4 .services .cards:nth-child(2) i,
+.cards:nth-child(2) h3 {
+  color: var(--lime-color);
+}
+.section_4 .services .cards:nth-child(3) i,
+.cards:nth-child(3) h3 {
+  color: var(--megenta-color);
+}
+.section_4 {
+  margin-bottom: 5em;
+}
+
+/*                      Section 5                 */
+.section_5 {
+  background: #833ab4;
+  background: -webkit-linear-gradient(to left, #0000ff, #00ffff, #833ab4);
+  background-image: url(/Stock/backgroundIMG1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-top: 40px solid #0000ff;
+}
+
+.section_5 div h1 {
+  padding: 0vmin 0em;
+}
+.section_5 .Team h6 {
+  font-size: 3vmin;
+}
+.section_5 div p {
+  font-size: 2vmin;
+  padding: 0 2vmin;
+}
+.section_5 .Team h1 {
+  font-family: var(--bungee);
+  color: #0000ff;
+}
+.section_5 .Team p {
+  font-size: 2vmin;
+  color: black;
+  font-family: var(--poppins);
+}
+.section_5 .Team .heros {
+  font-size: 3vmin;
+}
+.section_5 .Team .member {
+  margin-top: 7.5vmin;
+}
+.section_5 .Team .member:nth-child(1) img {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 15vmin;
+}
+.section_5 .Team .member:nth-child(2) {
+  margin-left: auto;
+}
+.section_5 .Team .member:nth-child(2) img {
+  width: 100%;
+  border-radius: 50%;
+}
+.section_5 .Team .member:nth-child(3) {
+  margin-left: auto;
+}
+.section_5 .Team .member:nth-child(3) img {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 15vmin;
+}
+.section_5 .Team .member .details {
+  padding: 0vmin;
+}
+.section_5 .Team .member .details h4 {
+  color: black;
+}
+.section_5 .Team .member .details p {
+  color: black;
+}
+.section_5 .Team .member .details > * {
+  color: #5d3fd3;
+  font-family: var(--poppins);
+}
+
+.Team {
+  margin-top: -3.5vmin;
+  padding-bottom: 10vmin;
+}
+
+/*                        Section 7                       */
+
+.section_6 {
+  padding: 12vmin 0vmin;
+  background-color: black;
+}
+
+.section_6 .footer {
+  padding: 5vmin 5vmin;
+  width: 100%;
+}
+.section_6 .footer label {
+  font-size: 1.8em;
+  color: whitesmoke;
+}
+
+.section_6 .footer ul li {
+  color: #d3d0cb;
+  font-size: 1.25em;
+}
+
+.copyrights,
+.copyrights p {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #d3d0cb;
+  font-size: 1em;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  video {
+    display: none;
+  }
+  .section_1 {
+    background: url("Stock/Background-4959.jpeg");
+    background-size: cover;
+  }
+  .section_1 .p {
+    color: #e5e5e5;
+  }
+  .section_2 {
+    margin-top: 5vmin;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .services {
+    margin-top: 250vmin;
+  }
+  .section_5 .Team .member:nth-child(3) {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section_4 .services {
+    margin-top: 330vmin;
+  }
+}
